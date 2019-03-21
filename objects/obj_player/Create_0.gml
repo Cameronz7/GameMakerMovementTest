@@ -1,0 +1,14 @@
+image_speed = 0.4;
+state = "move";
+roll_speed = 4.2;
+run_speed = 6;
+max_speed = run_speed;
+current_x_speed = 0;
+current_y_speed = 0;
+lerp_rate = 0.5;
+single_direction = true;
+total_speed = 0;
+sprite_run = s_skeleton_run;
+sprite_roll = s_skeleton_roll;
+sprite_idle = s_skeleton_idle;
+input = instance_create_layer(0,0, "Instances", obj_input);
